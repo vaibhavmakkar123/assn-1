@@ -1,0 +1,13 @@
+a = int(input("gross income = "))
+
+if(a>10000):
+    b = int(input("number of dependants = "))
+
+    taxable = a-(b*3000)-10000
+
+    print("taxable income = ", taxable)
+    tax = taxable*0.2
+    print("tax = ", tax)
+
+else:
+    print("no tax")
