@@ -1,0 +1,5 @@
+time = int(input("no. of seconds = "))
+minute = int(time/60)
+sec = time%60
+
+print("time is equal to", minute,"minutes and", sec, "seconds")
